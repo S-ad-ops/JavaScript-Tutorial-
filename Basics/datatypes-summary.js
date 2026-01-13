@@ -49,3 +49,4 @@ let one = {
     email: "00101@yahoo.com",
     upi :"user@ypl"
 }
+let usertwo = one
