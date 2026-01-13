@@ -31,3 +31,21 @@ console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3   
 //typeof operator result of null is object 
+
+//MEMORY 
+
+//Stack => Primitive , Heap => Non-primitive 
+//STACK 
+let name = "dypiu"
+
+let user = name 
+console.log(user);
+
+user = "dypcoe"
+console.log(user);
+
+//HEAP
+let one = {
+    email: "00101@yahoo.com",
+    upi :"user@ypl"
+}
