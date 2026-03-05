@@ -13,7 +13,21 @@ const obj = {
 
 //How to access object properties
 
-console.log(obj.name);
-console.log(obj["full name"]);
-console.log(obj["age"]);
-console.log(obj[mySymbol]);
+// console.log(obj.name);
+// console.log(obj["full name"]);
+// console.log(obj["age"]);
+// console.log(obj[mySymbol]);
+
+//Manupulating objects
+obj.age = 31; // Update existing property
+obj.country = "USA";
+
+// console.log(obj["age"]);
+
+//Object.freeze(obj); // Freeze the object to prevent modifications
+
+obj.greeting = function() {
+    console.log("Hello, my name is " + this.name);
+}
+//console.log(obj.greeting());
+console.log(obj.greeting);
